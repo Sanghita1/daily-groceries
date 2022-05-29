@@ -1,0 +1,111 @@
+.header
+{
+    padding: 20px 0px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.mainbody form
+{
+    display:flex;
+    justify-content: center;
+    
+}
+input[type="text"]
+{
+    border: 1px solid black;
+    padding: 5px 5px;
+    width:30vw;
+}
+form button
+{
+    background-color: blue;
+    border-color: rgb(132, 132, 231);
+    color:aliceblue
+}
+form button:active{
+    transform: scale(1.1);
+}
+.dataset
+{
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dataset #div1
+{
+    display:flex;
+    justify-content: space-between;
+    border:2px solid rgb(175, 183, 239);
+    width: 60vw;
+    padding: 5px 5px;
+    
+
+}
+
+.dataset #div1 div{
+    width: 80px;
+    font-size: 1.2rem;
+}
+.clear{
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+}
+.clear button
+{
+    border-color: aliceblue;
+    background-color: rgb(227, 49, 49);
+    color:aliceblue;
+    font-size: 1.1rem;
+    padding: 4px 10px;
+    margin-top: 10px;
+    
+}
+.subhead
+{
+    display:flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-style:italic;
+    font-size: 1.2rem;
+    font-weight:400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.dataset #div1 button{
+    background-color: rgb(245, 10, 57);
+    border-color: aliceblue;
+    color:aliceblue
+}
+button:hover{
+    cursor:pointer;
+}
+body .header,.subheader,.mainbody
+{
+    z-index: 2;
+    position: relative;
+    font-weight: 500;
+}
+body img{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity:0.6;
+}
+@media (min-width:558px)
+{
+    input[type="text"]
+    {
+        
+        width:auto;
+    }
+    .dataset #div1
+    {
+        width:300px;
+    }
+}
