@@ -99,7 +99,7 @@ function time()
 var datee = date.getDate();
 var month = date.getMonth()+1;
 var year = date.getFullYear();
-subhead.innerHTML ="Date:"+ datee+"/"+month+"/"+year;
+subhead.innerHTML ="Date: "+ datee+"/"+month+"/"+year;
     var hr = date.getHours();
 var min = date.getMinutes();
 var sec = date.getSeconds();
